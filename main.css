@@ -1,0 +1,28 @@
+body {
+  font-size: 1em;
+  font-family: helvetica, serif;
+}
+
+.container {
+  background-color: whitesmoke;
+  width: 330px;
+  height: 330px;
+  margin: 50px auto;
+  text-align: center;
+  box-shadow: 0 0 20px lightgray;
+}
+
+.squares {
+  border: 2px solid snow;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin: 2.5px -0.5px;
+  vertical-align: top; /*Prevents misalignment at top when square is clicked*/
+}
+
+
+p {
+  font-size: 2em;
+  color: white;
+}
